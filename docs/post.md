@@ -21,13 +21,12 @@ A *Jekflix* post file looks like:
 ```yaml
 # _posts/2010-01-01-welcome-to-the-desert-of-the-real.md
 ---
-date: 2019-05-16 23:48:05
+date: 2024-12-11 23:48:05
 layout: post
-title: Welcome to the desert of the real
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: "From Credits to Critiques: Gender Influence Shaping Movie Success"
+subtitle: An attempt to show how gender influences film success across traditional and streaming platforms
 description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua.
+  Serge is so strong and handsome
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg
 category: blog
