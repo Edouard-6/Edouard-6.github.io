@@ -1,16 +1,16 @@
 ---
 date: 2018-10-09 12:26:40
 layout: post
-title: The quick brown fox jumps over a lazy dog
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1506079212/jekflix-capa_vfhuzh.png
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1506079212/jekflix-capa_vfhuzh.png
-category: css
+title: The gender games
+subtitle: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
+description: “The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the box office and on streaming platforms, or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ”
+image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
+optimized_image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
+category: Linear regression
 tags:
-  - css
-  - tips
-author: mranderson
+  - Lin Reg
+  - M vs F
+author: Leila Diouri, Serge El Asmar
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
