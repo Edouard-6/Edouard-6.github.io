@@ -14,7 +14,7 @@ author: Leila Diouri, Serge El Asmar
 ---
 
 ## Exposition
-“The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the <a href="#why-books-should-be-your-priority">box office</a> and on <a href="#a-wonderful-serenity-has-taken-possession-of-my-entire-soul">streaming platforms</a>, or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ”
+“The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the <a href="#2010-03-03-why-books-should-be-your-priority">box office</a> and on <a href="#2011-05-05-a-wonderful-serenity-has-taken-possession-of-my-entire-soul">streaming platforms</a>, or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ”
 
 ## Rising Action
 As the cannon's roar signals the start of the battle, the question echos: What fuels the quest to understand gender representation in cinema? The past holds the clues, and a visual narrative begins to take shape. 
