@@ -11,7 +11,7 @@ tags:
   - streaming
   - gender diversity
   - movie success
-author: GauchoLP
+author: GauchoLP 
 ---
 
 ## Introduction: The Streaming Empire
@@ -27,11 +27,30 @@ The stakes are higher than ever as streaming platforms push the boundaries of ge
 ### Key Question:
 Do gender diverse films perform better on streaming platforms?
 
+### A New Hope for Diversity:
+
+
+In the vast galaxy of streaming, where countless films struggle for attention like Jedi against the dark side, diversity emerges as a beacon of hope. While some believe that films with balanced gender representation naturally connect with broader audiences, this remains an untested hypothesis. The idea that inclusive stories create universal appeal is alluring, but only data can reveal whether it truly holds the power to reshape the industry.
+
+Our mission is to explore how representation influences ratings and viewership. Is diversity the chosen one to restore balance to storytelling, or just another trend influenced by external forces like marketing and genre popularity? The answers lie ahead, waiting to be uncovered by the Force of analysis.
+
+
+
+
+---
+layout: default
+title: Mon Graphique Interactif
+---
+
+<h2>Mon Graphique Interactif</h2>
+<iframe src="/assets/html/average_number_or_percentage_of_female.html" width="100%" height="600px" frameborder="0"></iframe>
 ### Visualization Idea:
 - **Bar Chart:** Gender representation and genre on streaming platforms.
 
 BLABLA BLA Analyse 
 
+
++mettre les bails quon a plot avec male count et tout 
 ---
 
 ## Rising Action: Measuring Success in the Digital Age
