@@ -3,7 +3,7 @@ date: 2018-10-09 12:26:40
 layout: post
 title: The gender games
 subtitle: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
-description: “The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the box office and on streaming platforms, or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ”
+description: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
 image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
 optimized_image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
 category: Linear regression
@@ -13,117 +13,30 @@ tags:
 author: Leila Diouri, Serge El Asmar
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+## Exposition
+“The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the [box office](../posts/2010-03-03-why-books-should-be-your-priorit.md) and on [streaming platforms](../posts/2011-05-06-a-wonderful-serenity-has-taken-possession-of-my-entire-soul.md), or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ” 
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+## Rising Action
+As the cannon's roar signals the start of the battle, the question echos: What fuels the quest to understand gender representation in cinema? The past holds the clues, and a visual narrative begins to take shape. 
+### Graph here: visualization of gender representation over time
+This graph reveals the trajectory of representation through the decades.
 
-## Inline HTML elements
+## Climax
+The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, regression analysis unveils the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? *(a revoir)*
+### Graph here:
+- A dynamic scatter plot juxtaposes Log_ROI against log_Female_actors and log_Male_actors, illuminating the trends that dictate success.
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+## Falling Action
+The dust begins to settle, but the narrative deepens. Beyond the numbers lies the heart of cinema: genres. From action and adventure blockbusters to the poignant drama, what impact does gender representation leave in its wake?
+### Graph here:
+Bar chart of gender representation across genres, highlighting ROI. 
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+## Resolution
+As the credits roll, one conclusion becomes clear: 
+### Graph here:
 
-Most of these elements are styled by browsers with few modifications on our part.
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 
 
