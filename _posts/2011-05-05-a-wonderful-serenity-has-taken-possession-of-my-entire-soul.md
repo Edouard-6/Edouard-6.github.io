@@ -1,24 +1,50 @@
 ---
-date: 2018-07-20 12:26:40
+date: 2024-12-18
 layout: post
-title: A wonderful serenity has taken possession of my entire soul
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+title: Streaming wars 
+subtitle: Exploring representation and success in the digital age.
+description : Analyzing how gender diversity and genre influence the performance of films on streaming platforms like Netflix, Amazon Prime and Disney+.
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559820489/js-code_n83m7a.jpg
-category: code
+category: Streaming Analysis
 tags:
-  - platform
-  - javascript
-  - vscode
-author: mranderson
+  - streaming
+  - gender diversity
+  - movie success
+author: GauchoLP
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+## Introduction: The Streaming Empire
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Once a niche, the streaming empire has now become the dominant force in the entertainment universe. As the Siths named Netflix, Hulu, and Disney+ vie for the attention of millions, filmmakers face a new reality: success no longer just means filling up theaters; it means dominating the digital world.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+The stakes are higher than ever as streaming platforms push the boundaries of genre and storytelling. Which movies will rise to the occasion and capture the hearts of the digital generation? The battle for streaming supremacy is just getting started.
+
+---
+
+## Exposition: Gender, Genre, and Success
+
+### Key Question:
+Do gender diverse films perform better on streaming platforms?
+
+### Visualization Idea:
+- **Bar Chart:** Gender representation and genre on streaming platforms.
+
+BLABLA BLA Analyse 
+
+---
+
+## Rising Action: Measuring Success in the Digital Age
+
+As streaming platforms grow, so does their potential to shape culture. But does their inclusivity impact success?
+
+### Key Question:
+How do gender representation and genre correlate with critical success or popularity?
+
+### Visualization Idea:
+- **Scatter Plot:** Gender representation vs. popularity metrics (e.g., user ratings or reviews).
+
+---
 
 ## Inline HTML elements
 
