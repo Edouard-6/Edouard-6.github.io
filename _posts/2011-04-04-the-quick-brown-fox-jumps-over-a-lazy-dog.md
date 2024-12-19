@@ -25,13 +25,13 @@ This graph reveals the trajectory of female representation in films from 1980 to
 
 ## Climax
 The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, regression analysis unveils the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? *(a revoir)*
-### Graph here:
-- A dynamic scatter plot juxtaposes Log_ROI against log_Female_actors and log_Male_actors, illuminating the trends that dictate success.
+<iframe src="/assets/html/ROI_vs_Female_Male_Actors.html" width="150%" height="600px" frameborder="0"></iframe>
+Scatter plot of Logarithmic ROI against Female and Male actors count, illuminating the trends that dictate success.
 
 ## Falling Action
 The dust begins to settle, but the narrative deepens. Beyond the numbers lies the heart of cinema: genres. From action and adventure blockbusters to the poignant drama, what impact does gender representation leave in its wake?
-### Graph here:
-Bar chart of gender representation across genres, highlighting ROI. 
+<iframe src="/assets/html/Average_Female_Percentage_by_Genre.html" width="150%" height="600px" frameborder="0"></iframe>
+Bar chart of gender representation across genres. **highlighting ROI a faire**. 
 
 ## Resolution
 As the credits roll, one conclusion becomes clear: 
