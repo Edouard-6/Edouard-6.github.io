@@ -51,6 +51,36 @@ BLABLA BLA Analyse
 
 
 +mettre les bails quon a plot avec male count et tout 
+
+
+
+<h2>Mon Graphique Interactif</h2>
+<iframe src="/assets/html/streaming_histo.html" width="100%" height="600px" frameborder="0"></iframe>
+The histogram of `Movie_release_date` matches the growth of streaming platforms around 2015. Much like the Rebel Alliance rallying against the Empire, platforms like Netflix began producing their own content and expand their services accross the galaxy. The recent spike in film releases reflects the streaming era's growth and can also show us how our society is evolving.
+
+
+
+
+## Analysis of Female Representation Over Time
+
+### Key Observations:
+
+<h2>Mon Graphique Interactif</h2>
+<iframe src="/assets/html/comp_percentage_of_female_streamingvsboxoffice.html" width="100%" height="600px" frameborder="0"></iframe>
+- **Steady Increase in Female Representation:**
+  - Both streaming platforms and box office movies have an increase of the percentage of female actors over time. This shows that society is moving toward including more women which fits with societal efforts to promote diversity.
+
+- **Streaming Platforms Lead in Inclusivity:**
+  - Starting from the 2010s, streaming platforms consistently outperform box office movies in terms of female representation.
+  - This trend is likely due to the flexibility and creative freedom that streaming platforms offer, allowing them to address diversity more effectively than traditional cinema.
+
+- **Post-2015 Spike:**
+  - The rise in female representation becomes more noticeable after 2015, coinciding with the expansion of streaming platforms like Netflix and their focus on original content.
+  - This supports the idea that streaming platforms are driving more inclusive practices in the film industry.
+
+- **Variability in Box Office Movies:**
+  - The representation of female actors in box office movies shows greater variability, potentially influenced by blockbuster genres (e.g., action or superhero films) that traditionally prioritize male-dominated casts.
+
 ---
 
 ## Rising Action: Measuring Success in the Digital Age
