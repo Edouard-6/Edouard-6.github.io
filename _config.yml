@@ -15,6 +15,10 @@ menu:
     url: /
   - title: About
     url: /about
+  - title: The gender games
+    url: /the-quick-brown-fox-jumps-over-a-lazy-dog/
+  - title: Streaming wars
+    url: /a-wonderful-serenity-has-taken-possession-of-my-entire-soul/
 email: youremail@test.com
 # See: https://disqus.com/
 disqus_username: disqus_username
