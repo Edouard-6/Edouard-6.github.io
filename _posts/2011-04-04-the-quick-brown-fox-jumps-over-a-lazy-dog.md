@@ -19,8 +19,9 @@ author: Leila Diouri, Serge El Asmar
 
 ## Rising Action
 As the cannon's roar signals the start of the battle, the question echos: What fuels the quest to understand gender representation in cinema? The past holds the clues, and a visual narrative begins to take shape. 
-### Graph here: visualization of gender representation over time
-This graph reveals the trajectory of representation through the decades.
+<iframe src="/assets/html/Average_Female_Actor_Percentage_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
+This graph reveals the trajectory of female representation in films from 1980 to 2010. The data reveals fluctuations in the average percentage of female actors per year, with a gradual upward trend reaching its peak around the early 2000s, followed by a decline. 
+
 
 ## Climax
 The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, regression analysis unveils the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? *(a revoir)*
