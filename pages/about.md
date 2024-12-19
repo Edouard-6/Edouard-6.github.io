@@ -23,28 +23,30 @@ Who runs the world? Money. Hence, to answer the questions above, we will look at
 4. What are the social reasons behind the presence of female characters in movies? It is common to watch a movie and realize that the female support character may only be present to attract the male gaze. To what extent do production studios abuse of this? The [Bechdel Test](https://www.merriam-webster.com/dictionary/Bechdel%20Test) is a known metric to measure this. However, it is commonly criticised for being too surface level. Is there a better way to measure sexualization in movies?
 
 ## Additional datasets:
-<table style="border: 1px solid; border-collapse: collapse; width: 100%;">
-  <tr>
-    <th style="border: 1px solid; padding: 8px;">Dataset name</th>
-    <th style="border: 1px solid; padding: 8px;">URL</th>
-    <th style="border: 1px solid; padding: 8px;">Comments</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid; padding: 8px;">Internet Movie Database. (2024). IMDb non-commercial datasets.</td>
-    <td style="border: 1px solid; padding: 8px;"><a href="https://developer.imdb.com/non-commercial-datasets/">https://developer.imdb.com/non-commercial-datasets/</a></td>
-    <td style="border: 1px solid; padding: 8px;">The IMDB dataset is used to get information that was missing within the CMU dataset. We mainly extracted movie ratings, runtimes, adult ratings and crew information.</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid; padding: 8px;">The Numbers</td>
-    <td style="border: 1px solid; padding: 8px;"><a href="https://www.the-numbers.com/movie/budgets">https://www.the-numbers.com/movie/budgets</a></td>
-    <td style="border: 1px solid; padding: 8px;">The "The Numbers" dataset gives us budget information about the movies allowing us to estimate the ROI. It is important to note "Budget numbers for movies can be both difficult to find and unreliable." "The data we have is, to the best of our knowledge, accurate but there are gaps and disputed figures." quoted from the website. We were however only able to obtain a free sample of the dataset as we had to pay to get the complete file.</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid; padding: 8px;">Movie Dataset: Budgets, Genres, Insights by Utkarsh Singh</td>
-    <td style="border: 1px solid; padding: 8px;"><a href="https://www.kaggle.com/datasets/utkarshx27/movies-dataset/data">https://www.kaggle.com/datasets/utkarshx27/movies-dataset/data</a></td>
-    <td style="border: 1px solid; padding: 8px;">This dataset obtained from Kaggle allows us to complete some more missing budget rows.</td>
-  </tr>
-</table>
+<div class="responsive-table">
+  <table>
+    <tr>
+      <th>Dataset name</th>
+      <th>URL</th>
+      <th>Comments</th>
+    </tr>
+    <tr>
+      <td>Internet Movie Database. (2024). IMDb non-commercial datasets.</td>
+      <td><a href="https://developer.imdb.com/non-commercial-datasets/">https://developer.imdb.com/non-commercial-datasets/</a></td>
+      <td>The IMDB dataset is used to get information that was missing within the CMU dataset. We mainly extracted movie ratings, runtimes, adult ratings and crew information.</td>
+    </tr>
+    <tr>
+      <td>The Numbers</td>
+      <td><a href="https://www.the-numbers.com/movie/budgets">https://www.the-numbers.com/movie/budgets</a></td>
+      <td>The "The Numbers" dataset gives us budget information about the movies allowing us to estimate the ROI. It is important to note "Budget numbers for movies can be both difficult to find and unreliable." "The data we have is, to the best of our knowledge, accurate but there are gaps and disputed figures." quoted from the website. We were however only able to obtain a free sample of the dataset as we had to pay to get the complete file.</td>
+    </tr>
+    <tr>
+      <td>Movie Dataset: Budgets, Genres, Insights by Utkarsh Singh</td>
+      <td><a href="https://www.kaggle.com/datasets/utkarshx27/movies-dataset/data">https://www.kaggle.com/datasets/utkarshx27/movies-dataset/data</a></td>
+      <td>This dataset obtained from Kaggle allows us to complete some more missing budget rows.</td>
+    </tr>
+  </table>
+</div>
 
 ## Methods:
 1. Definition of a new metric: The WS (Weighted Success) metric is introduced in [Section 2](results.ipynb#2-our-success-metric) of our analysis. Through financial data we calculate the Return on Investment of each movie. We combine ROI with the ratings obtained from the IMDB dataset.
