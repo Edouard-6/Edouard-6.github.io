@@ -55,7 +55,7 @@ BLABLA BLA Analyse
 
 
 <h2>Mon Graphique Interactif</h2>
-<iframe src="/assets/html/comp_histo.html" width="50%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/comp_histo.html" width="100%" height="600px" frameborder="0"></iframe>
 The histogram of `Movie_release_date` matches the growth of streaming platforms around 2015. Much like the Rebel Alliance rallying against the Empire, platforms like Netflix began producing their own content and expand their services accross the galaxy. The recent spike in film releases reflects the streaming era's growth and can also show us how our society is evolving.
 
 
