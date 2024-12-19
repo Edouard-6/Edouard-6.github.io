@@ -1,5 +1,5 @@
 ---
-date: 2018-10-09 12:26:40
+date: 2012-03-21 12:26:40
 layout: post
 title: The gender games
 subtitle: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
@@ -7,6 +7,7 @@ description: Who will be crowned king of the arena? Happy gender games! May the 
 image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
 optimized_image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
 category: Linear regression
+order: 2
 tags:
   - Lin Reg
   - M vs F
@@ -14,13 +15,13 @@ author: Leila Diouri, Serge El Asmar
 ---
 
 ## Exposition
-“The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the [box office](../posts/2010-03-03-why-books-should-be-your-priorit.md) and on [streaming platforms](../posts/2011-05-06-a-wonderful-serenity-has-taken-possession-of-my-entire-soul.md), or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ” 
+“The arena for the movie industries’ narratives has long been male-dominated. As the viewers wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the box office and on [streaming platforms](/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/), or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ” 
 
 
 ## Rising Action
 As the cannon's roar signals the start of the battle, the question echos: What fuels the quest to understand gender representation in cinema? The past holds the clues, and a visual narrative begins to take shape. 
 <iframe src="/assets/html/Average_Female_Actor_Percentage_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
-This graph reveals the trajectory of female representation in films from 1980 to 2010. The data reveals fluctuations in the average percentage of female actors per year, with a gradual upward trend reaching its peak around the early 2000s, followed by a decline. 
+This graph reveals the trajectory of female representation in films from 1980 to 2014. The data reveals fluctuations in the average percentage of female actors in the 80s, with a gradual upward trend from the 90s onwards. However, this graph only gives infomation as a proportion of female actors. Let us take a closer look at the distribution of the frequency of female actors vs male actors.
 
 
 ## Climax
