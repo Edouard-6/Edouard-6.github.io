@@ -1,3 +1,77 @@
 ---
 ---
 @import "jekflix";
+
+/* Styling specific to the post-interactive-calculator */
+.post-interactive-calculator {
+    margin: 20px auto;
+    max-width: 600px;
+  
+    #regression-calculator {
+      background-color: #f9f9f9; /* Light gray background */
+      padding: 20px; /* Add padding inside the calculator */
+      border-radius: 10px; /* Round the corners */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better contrast */
+    }
+  
+    h2 {
+      text-align: center; /* Center-align the heading */
+      color: #333; /* Dark gray color */
+      font-size: 1.5em; /* Adjust heading size */
+      margin-bottom: 20px; /* Add spacing below the heading */
+    }
+  
+    label {
+      display: block; /* Labels appear on their own lines */
+      margin-bottom: 5px; /* Add spacing below labels */
+      font-weight: bold; /* Make labels bold */
+    }
+  
+    input,
+    select {
+      width: 100%; /* Inputs and dropdown span the full width */
+      padding: 10px; /* Add padding inside inputs */
+      margin-bottom: 15px; /* Add spacing below inputs */
+      border: 1px solid #ccc; /* Light border */
+      border-radius: 5px; /* Round the corners */
+      font-size: 14px; /* Adjust font size */
+      box-sizing: border-box; /* Ensure consistent sizing */
+    }
+  
+    button {
+      width: 100%; /* Full-width button */
+      padding: 10px; /* Add padding inside the button */
+      background-color: #0073e6; /* Blue background */
+      color: white; /* White text */
+      font-size: 16px; /* Adjust font size */
+      border: none; /* Remove border */
+      border-radius: 5px; /* Round the corners */
+      cursor: pointer; /* Show pointer cursor */
+      text-transform: uppercase; /* Make button text uppercase */
+      font-weight: bold; /* Bold text */
+    }
+  
+    button:hover {
+      background-color: #005bb5; /* Darker blue on hover */
+    }
+  
+    #result {
+      margin-top: 20px; /* Spacing above the result */
+      font-size: 16px; /* Adjust result text size */
+      font-weight: bold; /* Make result text bold */
+      color: #0073e6; /* Match the blue button color */
+      text-align: center; /* Center-align the result */
+    }
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .post-interactive-calculator #regression-calculator {
+      padding: 15px; /* Reduce padding for small screens */
+    }
+  
+    .post-interactive-calculator input,
+    .post-interactive-calculator button {
+      font-size: 14px; /* Smaller font size for small screens */
+    }
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Linear Regression</title>
+</head>
+<body>
+
+  <!-- Inline JavaScript -->
+  <script>
+    function calculate() {
+      console.log("Calculate function triggered.");
+
+      // Coefficients for regression, including boolean variables
+      const coefficients = {
+        regression1: {
+          numeric: [0.0911, -0.0611, 0.0107], // Female_actors, Male_actors, Movie_runtime
+          boolean: { Is_not_only_english: 0.0883, Is_USA_movie: 0.0786 }, // Boolean coefficients
+        },
+        regression2: {
+          numeric: [-0.0056, 0.0052, 0.0406],
+          boolean: { Is_not_only_english: 0.0077, Is_USA_movie: 0.0002 },
+        },
+        regression3: {
+          numeric: [0.7, 0.8, 1.5],
+          boolean: { Is_not_only_english: 0.5, Is_USA_movie: -0.4 },
+        },
+      };
+      const intercepts = {
+        regression1: 0.6998,
+        regression2: 0.6468,
+        regression3: 0.5,
+      };
+
+      // Get selected regression type
+      const regression = document.getElementById("regression-choice").value;
+
+      // Get numeric inputs
+      const femaleActors = parseFloat(document.getElementById("female-actors").value);
+      const maleActors = parseFloat(document.getElementById("male-actors").value);
+      const movieRuntime = parseFloat(document.getElementById("movie-runtime").value);
+
+      // Get boolean inputs
+      const isNotOnlyEnglish = document.getElementById("is-not-only-english").checked ? 1 : 0;
+      const isUSAMovie = document.getElementById("is-usa-movie").checked ? 1 : 0;
+
+      // Ensure valid numeric inputs
+      if (isNaN(femaleActors) || isNaN(maleActors) || isNaN(movieRuntime)) {
+        document.getElementById("result").innerText =
+          "Please enter valid numbers for all numeric fields.";
+        return;
+      }
+
+      // Perform calculation
+      const coef = coefficients[regression];
+      const intercept = intercepts[regression];
+
+      let result =
+        coef.numeric[0] * femaleActors +
+        coef.numeric[1] * maleActors +
+        coef.numeric[2] * movieRuntime +
+        coef.boolean.Is_not_only_english * isNotOnlyEnglish +
+        coef.boolean.Is_USA_movie * isUSAMovie +
+        intercept;
+
+      // Apply exponential function if regression1 is selected
+      if (regression === "regression1") {
+        result = Math.exp(result);
+        document.getElementById("result").innerText = `Predicted ROI value: ${result.toFixed(2)}`;
+      }
+      // Clip the result for regression2
+      else if (regression === "regression2") {
+        result = Math.min(Math.max(result, 0), 10); // Clip to range [0, 10]
+        document.getElementById("result").innerText = `Predicted Rating: ${result.toFixed(2)}/10`;
+      }
+    }
+  </script>
+</body>
+</html>
