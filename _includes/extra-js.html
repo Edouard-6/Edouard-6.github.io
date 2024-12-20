@@ -4,77 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Interactive Linear Regression</title>
+
+  <!-- Link to Stylesheet -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
 </head>
 <body>
+  <div id="regression-calculator">
+    <h2>Predict Dependent Variable</h2>
+    <form id="regression-form">
+      <label for="regression-choice">Select Dependent Variable:</label>
+      <select id="regression-choice" name="regression">
+        <option value="regression1">Dependent Variable 1 (ROI)</option>
+        <option value="regression2">Dependent Variable 2 (Rating)</option>
+        <option value="regression3">Dependent Variable 3</option>
+      </select>
+      <br /><br />
 
-  <!-- Inline JavaScript -->
-  <script>
-    function calculate() {
-      console.log("Calculate function triggered.");
+      <label for="female-actors">Number of Female Actors:</label>
+      <input type="number" id="female-actors" name="female-actors" required />
+      <br />
 
-      // Coefficients for regression, including boolean variables
-      const coefficients = {
-        regression1: {
-          numeric: [0.0911, -0.0611, 0.0107], // Female_actors, Male_actors, Movie_runtime
-          boolean: { Is_not_only_english: 0.0883, Is_USA_movie: 0.0786 }, // Boolean coefficients
-        },
-        regression2: {
-          numeric: [-0.0056, 0.0052, 0.0406],
-          boolean: { Is_not_only_english: 0.0077, Is_USA_movie: 0.0002 },
-        },
-        regression3: {
-          numeric: [0.7, 0.8, 1.5],
-          boolean: { Is_not_only_english: 0.5, Is_USA_movie: -0.4 },
-        },
-      };
-      const intercepts = {
-        regression1: 0.6998,
-        regression2: 0.6468,
-        regression3: 0.5,
-      };
+      <label for="male-actors">Number of Male Actors:</label>
+      <input type="number" id="male-actors" name="male-actors" required />
+      <br />
 
-      // Get selected regression type
-      const regression = document.getElementById("regression-choice").value;
+      <label for="movie-runtime">Movie Runtime (minutes):</label>
+      <input type="number" id="movie-runtime" name="movie-runtime" required />
+      <br />
 
-      // Get numeric inputs
-      const femaleActors = parseFloat(document.getElementById("female-actors").value);
-      const maleActors = parseFloat(document.getElementById("male-actors").value);
-      const movieRuntime = parseFloat(document.getElementById("movie-runtime").value);
+      <label for="is-not-only-english">Is Not Only in English:</label>
+      <input type="checkbox" id="is-not-only-english" name="is-not-only-english" />
+      <br />
 
-      // Get boolean inputs
-      const isNotOnlyEnglish = document.getElementById("is-not-only-english").checked ? 1 : 0;
-      const isUSAMovie = document.getElementById("is-usa-movie").checked ? 1 : 0;
+      <label for="is-usa-movie">Is a USA Movie:</label>
+      <input type="checkbox" id="is-usa-movie" name="is-usa-movie" />
+      <br /><br />
 
-      // Ensure valid numeric inputs
-      if (isNaN(femaleActors) || isNaN(maleActors) || isNaN(movieRuntime)) {
-        document.getElementById("result").innerText =
-          "Please enter valid numbers for all numeric fields.";
-        return;
-      }
+      <button type="button" onclick="calculate()">Calculate</button>
+    </form>
+    <div id="result" style="margin-top: 20px; font-weight: bold; color: #0073e6;">
+      <!-- Result will be displayed here -->
+    </div>
+  </div>
 
-      // Perform calculation
-      const coef = coefficients[regression];
-      const intercept = intercepts[regression];
-
-      let result =
-        coef.numeric[0] * femaleActors +
-        coef.numeric[1] * maleActors +
-        coef.numeric[2] * movieRuntime +
-        coef.boolean.Is_not_only_english * isNotOnlyEnglish +
-        coef.boolean.Is_USA_movie * isUSAMovie +
-        intercept;
-
-      // Apply exponential function if regression1 is selected
-      if (regression === "regression1") {
-        result = Math.exp(result);
-        document.getElementById("result").innerText = `Predicted ROI value: ${result.toFixed(2)}`;
-      }
-      // Clip the result for regression2
-      else if (regression === "regression2") {
-        result = Math.min(Math.max(result, 0), 10); // Clip to range [0, 10]
-        document.getElementById("result").innerText = `Predicted Rating: ${result.toFixed(2)}/10`;
-      }
-    }
-  </script>
+  <!-- Link to JavaScript -->
+  <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 </body>
 </html>
