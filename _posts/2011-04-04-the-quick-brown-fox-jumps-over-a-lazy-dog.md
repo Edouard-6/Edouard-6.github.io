@@ -11,7 +11,9 @@ order: 2
 tags:
   - Lin Reg
   - M vs F
-author: Leila Diouri
+authors:
+  - Leila Diouri
+  - Serge El Asmar
 ---
 
 ## Exposition

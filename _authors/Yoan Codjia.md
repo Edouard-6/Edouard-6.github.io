@@ -4,7 +4,7 @@ photo: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734709648/WhatsApp_Im
 name: Yoan Codjia
 display_name: Yoan Codjia
 position: 
-bio: Electrical engineer
+bio: Electrical Engineer
 github_username:
 linkedin_username:
 ---

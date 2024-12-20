@@ -77,7 +77,21 @@
         {% endif %}
 
         {% include subscription.html %}
-        {% include author.html %}
+        {% if page.authors %}
+            <div class="authors">
+                {% for author_name in page.authors %}
+                    {% assign author_data = site.authors | where: "name", author_name | first %}
+                    {% if author_data %}
+                    {% include author.html author=author_data %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% else %}
+            {% assign single_author = site.authors | where: "name", page.author | first %}
+            {% if single_author %}
+            {% include author.html author=single_author %}
+            {% endif %}
+        {% endif %}
         {% include footer.html %}
 
         {% assign author = site.authors | where: "name", post.author | first %}

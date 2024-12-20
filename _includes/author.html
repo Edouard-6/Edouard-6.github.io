@@ -1,4 +1,8 @@
-{% assign author = site.authors | where: "name", page.author | first %}
+{% if include.author %}
+  {% assign author = include.author %}
+{% else %}
+  {% assign author = site.authors | where: "name", page.author | first %}
+{% endif %}
 {% if author %}
   <section class="author">
     <div class="details">
