@@ -6,5 +6,5 @@ display_name: Serge El Asmar
 position: 
 bio: Roboticist
 github_username: sergeelasmar
-linkedin_username: https://www.linkedin.com/in/serge-el-asmar/
+linkedin_username: serge-el-asmar
 ---
