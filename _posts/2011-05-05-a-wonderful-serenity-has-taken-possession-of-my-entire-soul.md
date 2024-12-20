@@ -1,156 +1,167 @@
 ---
-date: 2012-03-21 12:26:40
+date: 2024-12-18
 layout: post
-title: The gender games
-subtitle: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
-description: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
-image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734669141/girl-on-fire-the-hunger-games-x6sxdf7zd05tgr54_uxhwk4.jpg
-optimized_image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734669141/girl-on-fire-the-hunger-games-x6sxdf7zd05tgr54_uxhwk4.jpg
-category: Linear regression
-order: 2
+title: Streaming wars 
+subtitle: Exploring representation and success in the digital age.
+description : Analyzing how gender diversity and genre influence the performance of films on streaming platforms like Netflix, Amazon Prime and Disney+.
+image: https://res.cloudinary.com/ddor52c2q/image/upload/v1734731713/Screenshot_2024-12-20_at_22.54.35_yvcmoh.png
+optimized_image: https://res.cloudinary.com/ddor52c2q/image/upload/v1734731713/Screenshot_2024-12-20_at_22.54.35_yvcmoh.png
+category: Streaming Analysis
+order: 3
 tags:
-  - Lin Reg
-  - M vs F
-authors:
-  - Leila Diouri
-  - Serge El Asmar
+  - streaming
+  - gender diversity
+  - movie success
+author: 
+  - Yoan Codjia 
 ---
 
-## Exposition
-> “The arena for the movie industries’ narratives has long been male-dominated. As the viewers of the capitol wonder if a shift is happening, female actors are eager to break through and challenge old expectations. In this battle for relevance and recognition, the stakes are high. Will gender-diverse films find their place at the top of the box office and on [streaming platforms](/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/), or will they remain underappreciated? As the industry fights to redefine what success looks like, gender becomes the ultimate game-changer. ” 
+## Exposition: The Streaming Rebellion vs. The Box Office Empire
+
+Once seen as the underdogs, streaming platforms like Netflix, Amazon prime, and Disney+ have risen as the heroes of the entertainment universe. As they battle against the traditional dominance of box office movies, these platforms offer a new hope for diverse storytelling and broader representation.
+
+With the power to redefine genre and push creative boundaries, streaming platforms have become the guardians of a more inclusive cinematic galaxy. Which stories will shine the brightest and capture the hearts of the digital generation? The quest for streaming supremacy is a force that continues to grow stronger every day.
+
+The stakes are higher than ever as streaming platforms push the boundaries of genre and storytelling. Which movies will rise to the occasion and capture the hearts of the digital generation? The battle for streaming supremacy is just getting started.
+
+---
+
+<img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734655605/force_uvha1q.gif" alt="R2D2 and C3P0 GIF" width="500">
+
+## Rising Action:
+### A New Hope for Diversity:
+
+In the vast galaxy of streaming, where countless films struggle for attention like Jedi against the dark side, diversity emerges as a beacon of hope. While some believe that films with balanced gender representation naturally connect with broader audiences, this remains an untested hypothesis. The idea that inclusive stories create universal appeal is alluring but only data can reveal whether it truly holds the power to reshape the industry.
+
+Our mission is to explore how representation influences ratings and viewership. Is diversity the chosen one to restore balance to storytelling, or just another trend influenced by external forces like marketing and genre popularity? The answers lie ahead, waiting to be uncovered by the Force of analysis.
 
 
-## Rising Action
-<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734719072/reaping_header_ljnhyp.png" alt="Peeta and Katniss" style="width: 100%; height: auto; border: none;">
+We’ll embark on a journey with the assistance of our loyal droids : R2D2 and C3PO. These companions will help us navigate the complexities of data analysis, ensuring no detail escapes their watchful sensors. Together, we’ll uncover the truth about gender diversity and its impact on the streaming galaxy.
 
-As the cannon's roar signals the start of the battle, the question echos: *What fuels the quest to understand gender representation in cinema?* The past holds the clues, and a visual narrative begins to take shape.
-<iframe src="/assets/html/Average_Female_Actor_Percentage_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
+<img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734631042/R2D2etC3P0_tvbmx6.gif" alt="R2D2 and C3P0 GIF" width="500">
 
-This graph reveals the trajectory of female representation in films from 1980 to 2014. The data reveals fluctuations in the average percentage of female actors in the 80s, with a **gradual upward trend** from the 90s onwards. However, this graph only gives infomation as a proportion of female actors. Let us take a closer look at the distribution of the frequency of female actors vs male actors.
-<iframe src="/assets/html/Frequency_Gender.html" width="150%" height="600px" frameborder="0"></iframe>
+---
 
-This barplot shows that both male and female frenquency count have a normal distribution. The peak frequency for female actors occurs at a much lower count of 3 against 8 for male actors. Futhermore, the distribution of female counts is slightly right skewed. This underscores a **disparity in representation**. Therefore, male actors appear to dominate ensemble casts, whilst female actors appear to be represented in smaller numbers. 
-<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734718136/pin_gif_sthzam.gif" alt="GIF Pin" style="width: 20%; height: auto; border: none;">
+---
 
-As the battle starts, a new participant enters the arena: **movie genres**. *Will they underline a more equitable fight for representation or will they deepen the disparities even more?*
-<iframe src="/assets/html/Per_Genre.html" width="150%" height="600px" frameborder="0"></iframe>
+ R2D2 has assembled the following visualizations. With his keen analytical circuits, these charts reveal insights into the rise of streaming platforms in the galaxy.
 
-This barplot reveals the distribution of average female actor percentages across various movie genres. **Action/adventure** movies show the lowest representation, with female actors averaging just over 20%. In contrast, genres such as **comedy**, **drama**, and **horror** exhibit significantly higher percentages, nearing 35%. These findings suggest that representation is lower in more physical genres such as action/adventure further underlining the narrative of male physical dominance. More emotional genres such as drama have a higher representation of women which is unsurprising considering societal norms that label women as more sensitive.
+<img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734631040/beepboop_ylam5c.gif" alt="R2D2 and C3P0 GIF" width="500">
 
-Like mentioned before, the past holds the clues. With movie genres entering the fight, the viewers wonder: *have they been relevant fighters throughout history?*
-<iframe src="/assets/html/By_Genre_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Num_votes_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Movie_release_date_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Movie_runtime_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Female_actors_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Male_actors_kde.html" width="100%" height="600px" frameborder="0"></iframe>
 
-When toggling between genres, distinct patterns emerge regarding the historical representation of female actors. In **drama**, the average female actor percentage has shown consistent growth from the late 1980s, peaking in the early 2000s before a slight decline. **Comedy**, on the other hand, demonstrates more fluctuations but maintains relatively high representation throughout the years.
+-  The histogram of Movie_release_date matches the growth of streaming platforms around 2015. Much like the Rebel Alliance rallying against the Empire, platforms like Netflix began producing their own content and expand their services accross the galaxy. C3P0 tell us that the small decrease of the curve after 2020 is due to the lack of current datas in their set. The recent spike in film releases reflects the streaming era's growth and can also show us how our society is evolving.
 
-**Fantasy** tells a different story, with spikes in female representation during specific years, indicating efforts to highlight strong female leads. In contrast, **thriller** and **horror** genres show inconsistency, though **horror** experienced a significant peak around the 2010s.
+- The histograms of Male_actors and Female_actors show distinct patterns. Streaming platforms tend to have a more balanced distribution between men and women. This inclusivity contrasts with box office movies which remain globaly influenced by the dark side genres traditionally dominated by male casts.
 
-The **action/adventure** genre remains the most male-dominated, with female representation rarely exceeding 30%. 
 
-> All of these ongoing fights for representation keep the viewers of the capitol on the edge of their seats. The questions still echo, *who truly holds the power in the Gender Games arena?*
+- The Movie_runtime histogram highlights how streaming platforms often favor shorter films, catering to the preference of binge-watching audiences. This trend contrasts with box office movies, which still feature longer runtimes, possibly due to the theatrical experience expectations.
 
-## Climax
-<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734719381/katniss_and_finnick_header_apnrqw.png" alt="Katniss and Finnick fight" style="width: 100%; height: auto; border: none;">
 
-The tension reaches its peak. *How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm?* In this pivotal moment, we turn to the weapons of movie success. *How does the number of Female and Male actors in movies influence ROI and ratings?* 
-<iframe src="/assets/html/Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 
-From the **Return On Investment (ROI)** standpoint, a general upwards trend can be noticed for both male and female actors. There seems to be a sweetspot for the average number of male and female actors. However, that sweetspot is very different and so is resulting (logarithmic) ROI. On one hand, an average number of 15 female actors produces a peak log(ROI) of 1.619, corresponding to an ROI of **5.04**. On the other hand, double that amount of male actors produces a peak log(ROI) of 2.173, corresponding to an ROI of **8.785**.
 
-Looking at **Normalized Ratings**, we can see the trends are much more constant indicating deeper analysis is necessary.
+### Analysis of Female Representation Over Time
 
-But *what can we do to relate all of this data to the Return On Investment and the Normalized Ratings? What about all the other factors that may play a role?* A simple analysis like the one above only allows us to say so much about the true relationship between our variables...
+<iframe src="/assets/html/comp_percentage_of_female_streamingvsboxoffice.html" width="100%" height="600px" frameborder="0"></iframe>
 
-Thankfully, our final participant enters the arena: **Linear Regression**!
+- *Steady Increase in Female Representation:*
+  - Both streaming platforms and box office movies have an increase of the percentage of female actors over time. This shows that society is moving toward including more genders in storytelling, reflecting the Rebel Alliance's efforts to bring balance and inclusivity to the galaxy.
 
-But before it even gets to chance to breathe, **movie genres** wants to have its final say: "Movies are very different, bunching them all up makes no sense!". And it is right, let us look at the relationship between our data when considering one genre at a time.
-<iframe src="/assets/html/By_genre_Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 
-For all the genres, Normalized ratings generally remain consistent, requiring a deeper analysis.
+- *Streaming Platforms Lead in Inclusivity:*
+  - Streaming platforms consistently outperform box office movies in terms of female representation, leading the charge confronting the Empire.
+  - This trend is probably because streaming platforms have more freedom and flexibility which helps them include more diversity compared to traditional cinema.
 
-- **Drama and Comedy**: The results resemble the one of the general analysis. For both of them, the sweet spot for ROI occurs with around 15 female actors, showing a peak log(ROI) of 1.702, corresponding to a ROI of approximately **5.48**. For **drama**, the peak for male cast appears much later with around 22 male actors for a log (ROI) of 2.146 corresponding to a ROI of **8.55**. For **comedy**, the highest peak is at 24 male actors for a log (ROI) of 1.984 corresponding to a ROI of **7.27**.  For more emotional movie genres, female actors therefore can achieve notable ROIs, yet male-dominated casts still reach higher peaks, reflecting persistent gender disparities. 
+- *Post-2015 Spike:*
+  - The rise in female representation becomes more noticeable after 2015, coinciding with the expansion of streaming platforms like Netflix and their focus on original content.This supports the idea that streaming platforms are driving more inclusive practices.
 
-- **Horror, Thriller and Fantasy**: Similar patterns emerge, showing a consistent preference for male actors in achieving higher ROI.
 
-- **Action/Adventure**: As expected, the **action/adventure** genre heavily leans toward male dominance. The highest log(ROI) peaks at 2.288 occur with 26 male actors, showing an ROI of nearly **9.85** ! However, female representation struggles, with the highest ROI barely surpassing half that of their male counterparts. This reinforces our previous belief that adventure and action movies often showcase a narrative of male dominance.
+- *Variability in Box Office Movies:*
+  - The representation of female actors in box office movies shows greater variability, potentially influenced by blockbuster genresthat traditionally prioritize male-dominated casts.
 
-In summary, while certain genres like **drama** and **comedy** provide more opportunities for female actors to generate significant ROI, genres such as **action/adventure** continue to favor male dominance. The general consistency in normalized ratings across genres suggests there are additional factors at play influencing audience reception and financial success.
 
-## Falling Action
-<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734718001/berry_scene_t2jagr.jpg" alt="Berry Scene" style="width: 100%; height: auto; border: none;"> 
 
-**Linear regression** is not convinced with the arguments brought forward by movie genres. It thinks the relationship is much more complex, requiring the careful consideration of a **multitude of factors**. It suggests looking at the impact that a set of indpendent variables will have on ROI, Normalized Rating and even a combination of both: [Movie Success](/why-books-should-be-your-priority/).
 
-The regression results table being large, only an extract with relevant information is shown here.
 
-- Let's take it one at a time starting with **log(ROI)**:
+<iframe src="/assets/html/female_percentage_genre_evolution.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/average_number_or_percentage_of_female.html" width="100%" height="600px" frameborder="0"></iframe>
 
-| Statistic       | Value       |
-|------------------|-------------|
-| Dep. Variable    | log_ROI     |
-| R-squared        | 0.349       |
-| Adj. R-squared   | 0.345       |
-| F-statistic      | 72.82       |
-| Prob (F-statistic) | 5.25e-154 |
+ *Bar Chart:* Gender representation and genre on streaming platforms.
 
-| Variable               | Coefficient | Std. Error | t-Value | p-value  | 
-|------------------------|-------------|------------|---------|--------|
-| const                  | 0.6998      | 0.024      | 29.620  | 0.000  | 
-| Female_actors          | 0.0935      | 0.025      | 3.734   | 0.000  | 
-| Male_actors            | -0.0839     | 0.026      | -3.179  | 0.002  | 
+- Female representation remains consistent across all genres, reflecting an industry-wide shift toward inclusivity.
+- The presence of female actors in genres such as Drama, Science Fiction, and Comedy showcases progress in creating more diverse stories that resonate with audiences.
+- This balance demonstrates a collective effort by the film industry to reflect societal changes and meet audience expectations for gender diversity.
 
-It is very interesting to see that contrarily to what was shown in the previous plots, the **average number of female actor**s has a  coefficient that is **positive and statistically significant** at the 5% significance level. This means that an increase in the average number of female actors leads to a higher Return On Investment. Even more surprisingly, the **average number of male actors** has a coefficient that is **negative and statistically significant** at the 5% significance level! These results go against what was seen in previous plots demonstrating that reality is not always what it seems. This leads opens the door for a series of questions. *What could be the underlying reasons for this higher ROI when more female actors are present? Could it be that women are paid less thus reducing the necessary budget? Does sexualization of women attracts more viewers? Or is it just that society has evolved towards increasing gender diversity?*
 
-- Let us look next at **Normalized Ratings**:
+
+---
+
+## Climax: Measuring Success in the Digital Age
+
+As we explore deeper into the streaming galaxy, we crossed paths with Master Yoda, who shared his timeless wisdom. "Ratings, the measure of success they are," he reminded us. "Reflect, they do, the reception and popularity of films and series."
+
+<img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734655232/star-wars-yoda_cwydcr.gif" alt="R2D2 and C3P0 GIF" width="500">
+
+To measure success, we will rely on user ratings. Streaming platforms use algorithms which analyze users reviews to recommend content. These metrics will serve as a proxy for gauging success in our analysis. By examining how ratings correlate with factors like gender diversity and genre, we aim to uncover the dynamics that drive engagement on these platforms.
+<img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734660853/voyage_vgdulz.gif" alt="R2D2 and C3P0 GIF" width="500">
+
+During our travels across the cinematic galaxy, our ship's scanners revealed the **average movie ratings by country**, visualized on this map. We can see Each region displays the audience’s general appreciation for films, highlighting diverse viewing preferences.
+<iframe src="/assets/html/plot_average_rating_by_country.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/analyze_countries_plotly.html" width="100%" height="600px" frameborder="0"></iframe>
+
+
+
+
+
+- Countries with darker shades show higher average ratings, showcasing regions where films are more successfull. The average ratings across countries should not be interpreted at face value due to unbalanced distribution of movies across regions. United States and India dominate the dataset with far more films than others, which could skew interpretations of their average ratings.
+- This global overviewpeti sparks curiosity about the factors influencing ratings : Could it be the genres, the languages spoken, or the cultural values embedded in films?
+
+Master Yoda's wisdom inspires our next step: exploring the relationship between ratings, gender, genres, and the languages spoken in these regions. A regression analysis might uncover how these elements shape audience reception and define the succes metric.
+
+## Falling Action: Regression Analysis
 
 | Statistic            | Value         |
 |-----------------------|---------------|
-| Dep. Variable         | Normalized_Rating |
-| R-squared            | 0.249         |
-| Adj. R-squared       | 0.243         |
-| F-statistic          | 48.58         |
-| Prob (F-statistic)   | 1.85e-100     |
+| Dep. Variable         | Average_ratings |
+| R-squared            | 0.099         |
+| Adj. R-squared       | 0.095         |
+| F-statistic          | 24.33         |
+| Prob (F-statistic)   | 4.97e-73      |
 
 
-| Variable               | Coefficient | Std. Error | t-Value  | p-value   |
-|------------------------|-------------|------------|----------|--------|
-| const                  | 0.6468      | 0.002      | 308.374  | 0.000  |
-| Female_actors          | -0.0073     | 0.002      | -3.306   | 0.001  |
-| Male_actors            | 0.0089      | 0.002      | 3.870    | 0.000  |
+| Variable               | Coefficient | Std. Error | t-Value  | p-value  | [0.025      0.975] |
+|------------------------|-------------|------------|----------|----------|--------------------|
+| const                  | 6.2561      | 0.017      | 367.013  | 0.000    | 6.223      6.290  |
+| Female_actors          | -0.1248     | 0.018      | -6.781   | 0.000    | -0.161     -0.089 |
+| Male_actors            | -0.0550     | 0.019      | -2.922   | 0.004    | -0.092     -0.018 |
+| Movie_runtime          | 0.2588      | 0.021      | 12.605   | 0.000    | 0.219      0.299  |
+| Is_not_only_english    | 0.0451      | 0.024      | 1.865    | 0.062    | -0.002     0.092  |
+| Is_USA_movie           | 0.1538      | 0.025      | 6.213    | 0.000    | 0.105      0.202  |
+| Platform_Disney        | 0.1346      | 0.027      | 4.949    | 0.000    | 0.081      0.188  |
+| Platform_Netflix       | 0.0899      | 0.027      | 3.304    | 0.001    | 0.037      0.143  |
 
-When looking at Normalized ratings we see opposite results to the log(ROI) results. Both coefficients are still **statitically significant** at the 5% level, however, their **signs are now flipped**. *What could be causing this disparity between ratings and ROI? Which metric matters more? Are female actors just less talented? Or are they more severely criticized and judged?* 
 
-- Finally, let's combine everything and look at our [Movie Success metric](/why-books-should-be-your-priority/):
+The regression analysis gave us some useful insights, but its ability to explain the data was limited. Here are the main points:
 
-| Statistic            | Value         |
-|-----------------------|---------------|
-| Dep. Variable         | Movie_success |
-| R-squared            | 0.102         |
-| Adj. R-squared       | 0.096         |
-| F-statistic          | 16.69         |
-| Prob (F-statistic)   | 3.32e-34      |
+- R2D2 find a low R<sup>2</sup> value of 0.099 indicates that only about 10% of the variance in Average_ratings is explained by the model. This suggests that many other factors influencing ratings were not captured in the analysis.
 
-| Variable               | Coefficient | Std. Error | t-Value  | p-value  |
-|------------------------|-------------|------------|----------|--------|
-| const                  | 0.5769      | 0.003      | 223.119  | 0.000  |
-| Female_actors          | 0.0041      | 0.003      | 1.490    | 0.136  |
-| Male_actors            | 0.0079      | 0.003      | 2.800    | 0.005  |
+Significant Predictors:
 
-At first glance it would seem these results reconcile the previous two. Indeed, both coefficients have positive signs leading us to believe that we have finally found a metric in which the rise of both genders is beneficial. However, we are quick to notice that the **average number of female actors** is **not statistically significant** at the 5% level. This means that the evidence is not strong enough to conclude that this variable has a meaningful effect on the success of a movie... Our metric is not conclusive given the data at hand.
+- Both Female_actors and Male_actors showed negative coefficients. The reasons behind these effects remain unclear and need further investigation.
+
+- Movie_runtime emerged as a strong positive predictor. It's aligning with the idea that the longer movies tend to receive higher ratings.
+
+- Platform_Disney and Platform_Netflix positively influenced ratings, reflecting the popularity of content on these platforms.
+
+- Limitations: While some predictors were significant, the model doesn't fully explain what affects audience ratings.
 
 
 ## Resolution
-<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668653/final_scene_katniss_f8ykkt.webp" alt="Final scene Katmiss" style="width: 55%; height: 300px; border: none;"> 
 
-Alas, we are right back where we started. However, we now have a lot more insight on the fearsome Gender Games. From the trends across time, to the variations across genres, we have paired the mightiest opponents we could find. The general concensus is that the **victor of the battle** comes down to personal opinion. What matters more: Ratings or Return on Investment? One thing is for sure, women have their place in the movie industry. Their recognition has risen with time and will (hopefully) continue to do so. It is important to look ahead and realize that in this world, **there are much worse games to play**.
+The regression analysis revealed some intriguing patterns, yet it is clear that this battle is far from over. With an R<sup>2</sup> of only 0.099, much remains unexplained about the factors shaping audience reception. Just as C3P0 and R2D2 never give up despite setbacks, we too must continue refining our tools. One day, through enhanced models and deeper exploration, we will triumph in decoding the dynamics of success in the streaming galaxy. This analysis is merely the beginning of a greater journey to understand the forces at play.
 
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734631041/ending_quwg9d.gif" alt="R2D2 and C3P0 GIF" width="500">
