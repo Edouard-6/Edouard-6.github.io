@@ -4,8 +4,8 @@ layout: post
 title: The gender games
 subtitle: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
 description: Who will be crowned king of the arena? Happy gender games! May the odds be ever in your favor.
-image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
-optimized_image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734375290/Picture_1_m2yzek.png
+image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734669141/girl-on-fire-the-hunger-games-x6sxdf7zd05tgr54_uxhwk4.jpg
+optimized_image: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734669141/girl-on-fire-the-hunger-games-x6sxdf7zd05tgr54_uxhwk4.jpg
 category: Linear regression
 order: 2
 tags:
@@ -20,25 +20,26 @@ author: Leila Diouri, Serge El Asmar
 
 ## Rising Action
 <img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734652851/peeta_katniss_1_y88kbz.png" alt="Peeta and Katniss" style="width: 100%; height: auto; border: none;">
+
 As the cannon's roar signals the start of the battle, the question echos: *What fuels the quest to understand gender representation in cinema?* The past holds the clues, and a visual narrative begins to take shape.
 <iframe src="/assets/html/Average_Female_Actor_Percentage_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
 
 This graph reveals the trajectory of female representation in films from 1980 to 2014. The data reveals fluctuations in the average percentage of female actors in the 80s, with a **gradual upward trend** from the 90s onwards. However, this graph only gives infomation as a proportion of female actors. Let us take a closer look at the distribution of the frequency of female actors vs male actors.
 <iframe src="/assets/html/Frequency_Gender.html" width="150%" height="600px" frameborder="0"></iframe>
 
-This barplot shows that both male and female frenquency count have a normal distribution. While the peak frequency for male actors occurs at higher actor counts, female actors reach their peak frequency at significantly lower actor counts. This underscores a **disparity in representation**. Therefore, male actors appear to dominate ensemble casts, while female actors appear to be represented in smaller numbers. 
+This barplot shows that both male and female frenquency count have a normal distribution. The peak frequency for female actors occurs at a much lower count of 3 against 8 for male actors. Futhermore, the distribution of female counts is slightly right skewed. This underscores a **disparity in representation**. Therefore, male actors appear to dominate ensemble casts, whilst female actors appear to be represented in smaller numbers. 
 
-As the battle starts, a new participant enters the arena, **movie genres**. *Will they underline a more equitable fight for representation or will they deepen the dissparities even more?*
+As the battle starts, a new participant enters the arena: **movie genres**. *Will they underline a more equitable fight for representation or will they deepen the disparities even more?*
 <iframe src="/assets/html/Per_Genre.html" width="150%" height="600px" frameborder="0"></iframe>
 
-This barplot reveals the distribution of average female actor percentages across various movie genres. **Action/adventure** movies show the lowest representation, with female actors averaging just over 20%. In contrast, genres such as **comedy**, **drama**, and **horror** exhibit significantly higher percentages, nearing 35%. These findings suggest that representation varies substantially depending on the movie genre. While some genres appear more inclusive, others, particularly **action-oriented** ones, appear to remain male-dominated. 
+This barplot reveals the distribution of average female actor percentages across various movie genres. **Action/adventure** movies show the lowest representation, with female actors averaging just over 20%. In contrast, genres such as **comedy**, **drama**, and **horror** exhibit significantly higher percentages, nearing 35%. These findings suggest that representation is lower in more physical genres such as action/adventure further underlining the narrative of male physical dominance. More emotional genres such as drama have a higher representation of women which is unsurprising considering societal norms that label women as more sensitive.
 
-Like mentioned before, the past holds the clues. With movie genres entering the fight, the viewers wonder: *have they always been relevant fighters throughout history?*
+Like mentioned before, the past holds the clues. With movie genres entering the fight, the viewers wonder: *have they been relevant fighters throughout history?*
 <iframe src="/assets/html/By_Genre_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
 
 When toggling between genres, distinct patterns emerge regarding the historical representation of female actors. In **drama**, the average female actor percentage has shown consistent growth from the late 1980s, peaking in the early 2000s before a slight decline. **Comedy**, on the other hand, demonstrates more fluctuations but maintains relatively high representation throughout the years.
 
-**Fantasy** tells a different story, with spikes in female representation during specific years, indicating efforts to highlight strong female leads. In contrast, **thriller** and **horror** genres show inconsistency, though **horror** experienced a significant peak around the 2010s, perhaps reflecting shifts in audience preferences for gender diversity.
+**Fantasy** tells a different story, with spikes in female representation during specific years, indicating efforts to highlight strong female leads. In contrast, **thriller** and **horror** genres show inconsistency, though **horror** experienced a significant peak around the 2010s.
 
 The **action/adventure** genre remains the most male-dominated, with female representation rarely exceeding 30%. 
 
@@ -46,14 +47,27 @@ The **action/adventure** genre remains the most male-dominated, with female repr
 
 ## Climax
 <img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668079/mockingjay_izyz2j.png" alt="Mockingjay" style="width: 100%; height: auto; border: none;">
-The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, regression analysis unveils the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? *(a revoir)*
+
+The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, we turn to the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? 
 <iframe src="/assets/html/Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
+
+From the Return On Investment (ROI) standpoint, a general upwards trend can be noticed for both male and female actors. There seems to be a sweetspot for the average number of male and female actors. However, that sweetspot is very different and so is resulting (logarithmic) ROI. One one hand, an average number of 15 female actors produces a peak log(ROI) of 1.619, corresponding to an ROI of 5.04. On the other hand, double that amount of male actors produces a peak log(ROI) of 2.173, corresponding to an ROI of 8.785.
+
+Looking at Normalized Ratings, we can see the trends are much more constant indicating deeper analysis is necessary.
+
+But what can we do to relate all of this data to the Return On Investment and the Normalized Ratings? What about all the other factors that may play a role? A simple analysis like the one above only allows us to say so much about the true relationship between our variables...
+
+Thankfully, our final participant enters the arena: **Linear Regression**!
+
+But before it even gets to chance to breathe, movie genres wants to have its final say: "Movies are very different, bunching them all up makes no sense!". And it is right, let us look at the relationship between our data when considering one genre at a time.
 <iframe src="/assets/html/By_genre_Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
+
+
 
 ## Falling Action
 <img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668653/final_scene_katniss_f8ykkt.webp" alt="Final scene Katmiss" style="width: 60%; height: 300px; border: none;"> 
 
-The dust begins to settle, but the narrative deepens. Beyond the numbers lies the heart of cinema: genres. From action and adventure blockbusters to the poignant drama, what impact does gender representation leave in its wake?
+Linear regression is not 
 
 
 ## Resolution
