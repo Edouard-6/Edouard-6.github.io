@@ -1,7 +1,7 @@
 ---
 date: 2024-12-19 12:26:40
 layout: post
-title: Box Office story
+title: Movie Success story
 subtitle: "Exploring the Secrets of Movie Success: From audience applause to Box Office gold."
 description: "Exploring the Secrets of Movie Success: From audience applause to Box Office gold."
 image: https://res.cloudinary.com/dncb3ja2x/image/upload/v1734643388/m_qwl6tw.png
@@ -14,134 +14,27 @@ tags:
 author: Edouard Waked
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+## Exposition: Setting the scene
+> “In the vibrant world of cinema, where narratives come to life, another story unfolds behind the curtains: one of financial figures and critical applaud. We're peeling back the layers to reveal what truly propels a movie to box office success. Just as every character, every movie has its unique path to glory or obscurity. So, what truly makes a movie successful? Is it profit margins, widespread acclaim, or a combination of both?“
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-<!--page-->
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-<!--page-->
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-```js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
-
-<!--page-->
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-<!--page-->
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-<!--page-->
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+## Rising Action: Gathering momentum
+We see two distinct paths to success in the world of cinema. On one hand, there are the blockbuster giants with huge box office profits. On the other, there are movies that captivate critics and audiences alike, earning high ratings, though perhaps not filling theaters to the peak. This fascinating divide encourages us to dig deeper. Do glowing reviews always lead to financial success? What can we learn from the showdown between beloved underdogs and big budget spectacles about what really defines a movie’s success?
+<iframe src="/assets/html/average_log_roi_genres.html" width="150%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/roi_trends_high_low_rated.html" width="150%" height="600px" frameborder="0"></iframe>
 
 
+## Climax: The turning point
+As we reach the peak of our cinematic journey, we spotlight films that shatter norms: those unexpected gems that achieve high ROI despite poor reviews, alongside the big budget films that disappoint despite their hype. This pivotal moment in our exploration challenges our traditional perceptions of success and invites us to reconsider what we truly value in cinema. Can films with mediocre reviews but high financial returns truly be considered successful? Are these exceptions to the rule anomalies, or do they reveal an underlying pattern about what drives a movie's financial success?
+<iframe src="/assets/html/ratings_vs_roi_scatter.html" width="150%" height="600px" frameborder="0"></iframe>
 
 
+## Falling Action: Unraveling insights
+As our narrative unfolds, we take a closer look at the genres that are losing their luster at the box office. This exploration dives into how viewer preferences and industry dynamics are evolving over time. Which movie genres are seeing a fall in popularity or financial success, and what's driving these changes? Let’s unpack the factors contributing to these shifts and what they might mean for the future of cinema.
+<iframe src="/assets/html/revenue_trends_by_genre.html" width="150%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/ratings_trends_by_genre.html" width="150%" height="600px" frameborder="0"></iframe>
 
 
-
-
-
+## Resolution: Bringing it all together
+As we arrive to the end of our movie success journey, we discover that the secret to a movie's success isn't just about hitting high ROI numbers or gaining good reviews alone. Instead, it's the complex dance between these factors, along with genre dynamics, that truly shapes a film’s fate in the modern movie industry.
+<iframe src="/assets/html/movie_success_by_decade_genre_line.html" width="150%" height="600px" frameborder="0"></iframe>
 
