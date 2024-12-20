@@ -15,10 +15,14 @@ menu:
     url: /
   - title: About
     url: /about
-  - title: The gender games
+  - title: Box Office Story
+    url: /why-books-should-be-your-priority/
+  - title: The Gender Games
     url: /the-quick-brown-fox-jumps-over-a-lazy-dog/
-  - title: Streaming wars
+  - title: Streaming Wars
     url: /a-wonderful-serenity-has-taken-possession-of-my-entire-soul/
+  - title: Fifty Shades of Change
+    url: /candy-candies-candy/
 email: youremail@test.com
 # See: https://disqus.com/
 disqus_username: disqus_username
