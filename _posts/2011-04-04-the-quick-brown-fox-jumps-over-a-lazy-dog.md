@@ -48,24 +48,34 @@ The **action/adventure** genre remains the most male-dominated, with female repr
 ## Climax
 <img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668079/mockingjay_izyz2j.png" alt="Mockingjay" style="width: 100%; height: auto; border: none;">
 
-The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, we turn to the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? 
+The tension reaches its peak. *How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm?* In this pivotal moment, we turn to the weapons of movie success. *How does the number of Female and Male actors in movies influence ROI and ratings?* 
 <iframe src="/assets/html/Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 
-From the Return On Investment (ROI) standpoint, a general upwards trend can be noticed for both male and female actors. There seems to be a sweetspot for the average number of male and female actors. However, that sweetspot is very different and so is resulting (logarithmic) ROI. One one hand, an average number of 15 female actors produces a peak log(ROI) of 1.619, corresponding to an ROI of 5.04. On the other hand, double that amount of male actors produces a peak log(ROI) of 2.173, corresponding to an ROI of 8.785.
+From the **Return On Investment (ROI)** standpoint, a general upwards trend can be noticed for both male and female actors. There seems to be a sweetspot for the average number of male and female actors. However, that sweetspot is very different and so is resulting (logarithmic) ROI. One one hand, an average number of 15 female actors produces a peak log(ROI) of 1.619, corresponding to an ROI of **5.04**. On the other hand, double that amount of male actors produces a peak log(ROI) of 2.173, corresponding to an ROI of **8.785**.
 
-Looking at Normalized Ratings, we can see the trends are much more constant indicating deeper analysis is necessary.
+Looking at **Normalized Ratings**, we can see the trends are much more constant indicating deeper analysis is necessary.
 
-But what can we do to relate all of this data to the Return On Investment and the Normalized Ratings? What about all the other factors that may play a role? A simple analysis like the one above only allows us to say so much about the true relationship between our variables...
+But *what can we do to relate all of this data to the Return On Investment and the Normalized Ratings? What about all the other factors that may play a role?* A simple analysis like the one above only allows us to say so much about the true relationship between our variables...
 
 Thankfully, our final participant enters the arena: **Linear Regression**!
 
-But before it even gets to chance to breathe, movie genres wants to have its final say: "Movies are very different, bunching them all up makes no sense!". And it is right, let us look at the relationship between our data when considering one genre at a time.
+But before it even gets to chance to breathe, **movie genres** wants to have its final say: "Movies are very different, bunching them all up makes no sense!". And it is right, let us look at the relationship between our data when considering one genre at a time.
 <iframe src="/assets/html/By_genre_Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 
+For all the genres, Normalized ratings generally remain consistent, requiring again a deeper analysis.
+
+### **Drama and Comedy**
+The results resemble the one of the general analysis. For **drama**, the sweet spot for ROI occurs with around 15 female actors, showing a peak log(ROI) of 1.702, corresponding to an ROI of approximately **5.48**. Similarly to the general analysis, the peak for male cast appears much later with around 22 male actors for a log (ROI) of 2.146 corresponding to a ROI of **8.55** for **drama**. For **comedy**, the highest peak is at 24 male actors for a log (ROI) of 1.984 corresponding to a ROI of **7.27**.  
+
+### **Horror, Thriller and Fantasy**
+**Horror**, **fantasy** and **thriller** genres have approximatly the same general principle.
+
+### **Action/Adventure**
+As expected, the **action/adventure** genre heavily leans toward male dominance. The highest log(ROI) peaks at 2.288 occur with 26 male actors, showing an ROI of nearly **9.85**! However, female representation struggles, with the highest ROI barely surpassing half that of their male counterparts. 
 
 
 ## Falling Action
-<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668653/final_scene_katniss_f8ykkt.webp" alt="Final scene Katmiss" style="width: 60%; height: 300px; border: none;"> 
+<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668653/final_scene_katniss_f8ykkt.webp" alt="Final scene Katmiss" style="width: 50%; height: 300px; border: none;"> 
 
 Linear regression is not 
 
