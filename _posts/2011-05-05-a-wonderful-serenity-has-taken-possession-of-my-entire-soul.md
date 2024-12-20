@@ -4,8 +4,8 @@ layout: post
 title: Streaming wars 
 subtitle: Exploring representation and success in the digital age.
 description : Analyzing how gender diversity and genre influence the performance of films on streaming platforms like Netflix, Amazon Prime and Disney+.
-image: https://res.cloudinary.com/drichmdyj/image/upload/v1734639487/WhatsApp_Image_2024-12-19_at_21.17.17_phcqw0.jpg
-optimized_image: https://res.cloudinary.com/drichmdyj/image/upload/v1734639487/WhatsApp_Image_2024-12-19_at_21.17.17_phcqw0.jpg
+image: https://res.cloudinary.com/ddor52c2q/image/upload/v1734731713/Screenshot_2024-12-20_at_22.54.35_yvcmoh.png
+optimized_image: https://res.cloudinary.com/ddor52c2q/image/upload/v1734731713/Screenshot_2024-12-20_at_22.54.35_yvcmoh.png
 category: Streaming Analysis
 order: 3
 tags:
