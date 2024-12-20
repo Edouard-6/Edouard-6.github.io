@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: 
+photo: https://res.cloudinary.com/df2o3hsmr/image/upload/v1734711174/MyPhoto_wq22ob.jpg
 name: Edouard Waked
 display_name: Edouard Waked
 position: The One
