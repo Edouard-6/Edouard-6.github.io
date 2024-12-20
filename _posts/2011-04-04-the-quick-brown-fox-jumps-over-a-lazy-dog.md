@@ -54,7 +54,7 @@ The **action/adventure** genre remains the most male-dominated, with female repr
 The tension reaches its peak. *How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm?* In this pivotal moment, we turn to the weapons of movie success. *How does the number of Female and Male actors in movies influence ROI and ratings?* 
 <iframe src="/assets/html/Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 
-From the **Return On Investment (ROI)** standpoint, a general upwards trend can be noticed for both male and female actors. There seems to be a sweetspot for the average number of male and female actors. However, that sweetspot is very different and so is resulting (logarithmic) ROI. One one hand, an average number of 15 female actors produces a peak log(ROI) of 1.619, corresponding to an ROI of **5.04**. On the other hand, double that amount of male actors produces a peak log(ROI) of 2.173, corresponding to an ROI of **8.785**.
+From the **Return On Investment (ROI)** standpoint, a general upwards trend can be noticed for both male and female actors. There seems to be a sweetspot for the average number of male and female actors. However, that sweetspot is very different and so is resulting (logarithmic) ROI. On one hand, an average number of 15 female actors produces a peak log(ROI) of 1.619, corresponding to an ROI of **5.04**. On the other hand, double that amount of male actors produces a peak log(ROI) of 2.173, corresponding to an ROI of **8.785**.
 
 Looking at **Normalized Ratings**, we can see the trends are much more constant indicating deeper analysis is necessary.
 
