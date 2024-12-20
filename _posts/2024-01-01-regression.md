@@ -13,7 +13,7 @@ tags:
 author: Serge El Asmar
 ---
 
-Have fun exploring what rating or ROI you would get if you were your very own movie producer. Sadly, this calculator has very limited predictive power due to its low amount of variables. This is because the regression model had too many insignificant categorical variables. This can nevertheless remain a first estimate of your movie's performance!
+Have fun exploring what rating or ROI you would get if you were your very own movie producer. Sadly, this calculator has very limited predictive power due to its low amount of variables and lack of careful consideration of scale. This is because the regression model had too many insignificant categorical variables. This can nevertheless remain a first estimate of your movie's performance!
 
 <div class="post-interactive-calculator">
   <div id="regression-calculator">
