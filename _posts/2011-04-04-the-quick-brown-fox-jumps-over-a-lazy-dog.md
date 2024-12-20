@@ -19,6 +19,7 @@ author: Leila Diouri, Serge El Asmar
 
 
 ## Rising Action
+<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734652851/peeta_katniss_1_y88kbz.png" alt="Peeta and Katniss" style="width: 100%; height: auto; border: none;">
 As the cannon's roar signals the start of the battle, the question echos: *What fuels the quest to understand gender representation in cinema?* The past holds the clues, and a visual narrative begins to take shape.
 <iframe src="/assets/html/Average_Female_Actor_Percentage_Per_Year.html" width="150%" height="600px" frameborder="0"></iframe>
 
@@ -44,11 +45,14 @@ The **action/adventure** genre remains the most male-dominated, with female repr
 > All of these ongoing fights for representation keep the viewers of the capitol on the edge of their seats. The questions still echo, *who truly holds the power in the Gender Games arena?*
 
 ## Climax
+<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668079/mockingjay_izyz2j.png" alt="Mockingjay" style="width: 100%; height: auto; border: none;">
 The tension reaches its peak. How does the presence of gender-diverse casts shape a film's success? Do the numbers speak of a new paradigm? In this pivotal moment, regression analysis unveils the weapons of movie success. How does the number of Female and Male actors in movies influence ROI and ratings? *(a revoir)*
 <iframe src="/assets/html/Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 <iframe src="/assets/html/By_genre_Gender_across_Metrics.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
 
 ## Falling Action
+<img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734668653/final_scene_katniss_f8ykkt.webp" alt="Final scene Katmiss" style="width: 60%; height: 300px; border: none;"> 
+
 The dust begins to settle, but the narrative deepens. Beyond the numbers lies the heart of cinema: genres. From action and adventure blockbusters to the poignant drama, what impact does gender representation leave in its wake?
 
 
