@@ -89,14 +89,14 @@ The regression results table being large, only an extract with relevant informat
 | Dep. Variable    | log_ROI     |
 | R-squared        | 0.349       |
 | Adj. R-squared   | 0.345       |
-| F-statistic      | 72.82       |
-| Prob (F-statistic) | 5.25e-154 |
+| F-statistic      | 85.98       |
+| Prob (F-statistic) | 1.12e-155 |
 
 | Variable               | Coefficient | Std. Error | t-Value | p-value  | 
 |------------------------|-------------|------------|---------|--------|
-| const                  | 0.6998      | 0.024      | 29.620  | 0.000  | 
-| Female_actors          | 0.0935      | 0.025      | 3.734   | 0.000  | 
-| Male_actors            | -0.0839     | 0.026      | -3.179  | 0.002  | 
+| const                  | 0.6998      | 0.024      | 29.626  | 0.000  | 
+| Female_actors          | 0.0924      | 0.026      | 3.694   | 0.000  | 
+| Male_actors            | -0.0864     | 0.026      | -3.287  | 0.001  | 
 
 It is very interesting to see that contrarily to what was shown in the previous plots, the **average number of female actor**s has a  coefficient that is **positive and statistically significant** at the 5% significance level. This means that an increase in the average number of female actors leads to a higher Return On Investment. Even more surprisingly, the **average number of male actors** has a coefficient that is **negative and statistically significant** at the 5% significance level! These results go against what was seen in previous plots demonstrating that reality is not always what it seems. This leads opens the door for a series of questions. *What could be the underlying reasons for this higher ROI when more female actors are present? Could it be that women are paid less thus reducing the necessary budget? Does sexualization of women attracts more viewers? Or is it just that society has evolved towards increasing gender diversity?*
 
@@ -105,17 +105,17 @@ It is very interesting to see that contrarily to what was shown in the previous 
 | Statistic            | Value         |
 |-----------------------|---------------|
 | Dep. Variable         | Normalized_Rating |
-| R-squared            | 0.249         |
+| R-squared            | 0.248         |
 | Adj. R-squared       | 0.243         |
-| F-statistic          | 48.58         |
-| Prob (F-statistic)   | 1.85e-100     |
+| F-statistic          | 52.92         |
+| Prob (F-statistic)   | 3.84e-101     |
 
 
 | Variable               | Coefficient | Std. Error | t-Value  | p-value   |
 |------------------------|-------------|------------|----------|--------|
-| const                  | 0.6468      | 0.002      | 308.374  | 0.000  |
-| Female_actors          | -0.0073     | 0.002      | -3.306   | 0.001  |
-| Male_actors            | 0.0089      | 0.002      | 3.870    | 0.000  |
+| const                  | 0.6468      | 0.002      | 308.384  | 0.000  |
+| Female_actors          | -0.0074     | 0.002      | -3.344   | 0.001  |
+| Male_actors            | 0.0087      | 0.002      | 3.811    | 0.000  |
 
 When looking at Normalized ratings we see opposite results to the log(ROI) results. Both coefficients are still **statitically significant** at the 5% level, however, their **signs are now flipped**. *What could be causing this disparity between ratings and ROI? Which metric matters more? Are female actors just less talented? Or are they more severely criticized and judged?* 
 
@@ -126,14 +126,14 @@ When looking at Normalized ratings we see opposite results to the log(ROI) resul
 | Dep. Variable         | Movie_success |
 | R-squared            | 0.102         |
 | Adj. R-squared       | 0.096         |
-| F-statistic          | 16.69         |
-| Prob (F-statistic)   | 3.32e-34      |
+| F-statistic          | 18.14         |
+| Prob (F-statistic)   | 1.11e-34      |
 
 | Variable               | Coefficient | Std. Error | t-Value  | p-value  |
 |------------------------|-------------|------------|----------|--------|
 | const                  | 0.5769      | 0.003      | 223.119  | 0.000  |
-| Female_actors          | 0.0041      | 0.003      | 1.490    | 0.136  |
-| Male_actors            | 0.0079      | 0.003      | 2.800    | 0.005  |
+| Female_actors          | 0.0042      | 0.003      | 1.525    | 0.127  |
+| Male_actors            | 0.0081      | 0.003      | 2.874    | 0.004  |
 
 At first glance it would seem these results reconcile the previous two. Indeed, both coefficients have positive signs leading us to believe that we have finally found a metric in which the rise of both genders is beneficial. However, we are quick to notice that the **average number of female actors** is **not statistically significant** at the 5% level. This means that the evidence is not strong enough to conclude that this variable has a meaningful effect on the success of a movie... Our metric is not conclusive given the data at hand.
 

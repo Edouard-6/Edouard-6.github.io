@@ -13,8 +13,8 @@ show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
-    url: /about
+  - title: Welcome
+    url: /welcome-to-the-desert-of-the-real/
   - title: Box Office Story
     url: /why-books-should-be-your-priority/
   - title: The Gender Games
@@ -23,6 +23,8 @@ menu:
     url: /a-wonderful-serenity-has-taken-possession-of-my-entire-soul/
   - title: Fifty Shades of Change
     url: /candy-candies-candy/
+  - title: Will your movie be successful?
+    url: /regression/
 email: youremail@test.com
 # See: https://disqus.com/
 disqus_username: disqus_username
