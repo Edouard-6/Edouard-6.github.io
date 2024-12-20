@@ -22,4 +22,8 @@ authors:
   - Fawzia Zeitoun
 paginate: true
 ---
-Hello, and welcome to Kung Fu Pandas 24's Applied Data Analysis data story. The movie industry is a dark, scheme-filled place. We have gathered a team of detectives to uncover the "Reel" realities behind your favorite movies and shows:
+Hello! Welcome to Kung Fu Pandas 24's Applied Data Analysis data story. The movie industry is a dark, scheme-filled place. In a world where inequalities rain supreme and the rich seek to become richer, movies, which may seem to some as an escape from reality, could end up being the place where the truth hides. For a movie to be successful it of course, needs an audience. However, between movies destined for critics or those made to please the general audience, the definition of success is as blurred as ever. It is important to read between the lines, in our case, the lines of data...
+
+ *What underlying patterns can we find within this multi-billion dollar industry? How do production studios leverage social events and inequalities to get the most acclaim or revenue? How does this vary between the box office and streaming services?* 
+
+**We have gathered a team of detectives to uncover the "Reel" realities behind your favorite movies and shows:**
