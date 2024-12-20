@@ -4,8 +4,8 @@ layout: post
 title: Streaming wars 
 subtitle: Exploring representation and success in the digital age.
 description : Analyzing how gender diversity and genre influence the performance of films on streaming platforms like Netflix, Amazon Prime and Disney+.
-image: https://res.cloudinary.com/drichmdyj/image/upload/v1734639487/WhatsApp_Image_2024-12-19_at_21.17.17_phcqw0.jpg
-optimized_image: https://res.cloudinary.com/drichmdyj/image/upload/v1734639487/WhatsApp_Image_2024-12-19_at_21.17.17_phcqw0.jpg
+image: https://res.cloudinary.com/ddor52c2q/image/upload/v1734731713/Screenshot_2024-12-20_at_22.54.35_yvcmoh.png
+optimized_image: https://res.cloudinary.com/ddor52c2q/image/upload/v1734731713/Screenshot_2024-12-20_at_22.54.35_yvcmoh.png
 category: Streaming Analysis
 order: 3
 tags:
@@ -15,10 +15,9 @@ tags:
 author: GauchoLP 
 ---
 
-# Introduction: The Streaming Rebellion vs. The Box Office Empire
+## Exposition: The Streaming Rebellion vs. The Box Office Empire
 
 Once seen as the underdogs, streaming platforms like Netflix, Amazon prime, and Disney+ have risen as the heroes of the entertainment universe. As they battle against the traditional dominance of box office movies, these platforms offer a new hope for diverse storytelling and broader representation.
-
 
 With the power to redefine genre and push creative boundaries, streaming platforms have become the guardians of a more inclusive cinematic galaxy. Which stories will shine the brightest and capture the hearts of the digital generation? The quest for streaming supremacy is a force that continues to grow stronger every day.
 
@@ -28,7 +27,8 @@ The stakes are higher than ever as streaming platforms push the boundaries of ge
 
 <img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734655605/force_uvha1q.gif" alt="R2D2 and C3P0 GIF" width="500">
 
-# A New Hope for Diversity:
+## Rising Action:
+### A New Hope for Diversity:
 
 In the vast galaxy of streaming, where countless films struggle for attention like Jedi against the dark side, diversity emerges as a beacon of hope. While some believe that films with balanced gender representation naturally connect with broader audiences, this remains an untested hypothesis. The idea that inclusive stories create universal appeal is alluring but only data can reveal whether it truly holds the power to reshape the industry.
 
@@ -63,7 +63,7 @@ We’ll embark on a journey with the assistance of our loyal droids : R2D2 and C
 
 
 
-## Analysis of Female Representation Over Time
+### Analysis of Female Representation Over Time
 
 <iframe src="/assets/html/comp_percentage_of_female_streamingvsboxoffice.html" width="100%" height="600px" frameborder="0"></iframe>
 
@@ -99,7 +99,7 @@ We’ll embark on a journey with the assistance of our loyal droids : R2D2 and C
 
 ---
 
-# Rising Action: Measuring Success in the Digital Age
+## Climax: Measuring Success in the Digital Age
 
 As we explore deeper into the streaming galaxy, we crossed paths with Master Yoda, who shared his timeless wisdom. "Ratings, the measure of success they are," he reminded us. "Reflect, they do, the reception and popularity of films and series."
 
@@ -121,118 +121,8 @@ During our travels across the cinematic galaxy, our ship's scanners revealed the
 
 Master Yoda's wisdom inspires our next step: exploring the relationship between ratings, gender, genres, and the languages spoken in these regions. A regression analysis might uncover how these elements shape audience reception and define the succes metric.
 
+## Falling Action: Regression Analysis
+
+## Resolution
 
 
-### Key Question:
-How do gender representation and genre correlate with critical success or popularity?
-
-### Visualization Idea:
-- *Scatter Plot:* Gender representation vs. popularity metrics (e.g., user ratings or reviews).
-
----
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- *To bold text*, use <strong>.
-- To italicize text, use <em>.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <abbr>, with an optional title attribute for the full phrase.
-- Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use <cite>.
-- <del>Deleted</del> text should use <del> and <ins>inserted</ins> text should use <ins>.
-- Superscript <sup>text</sup> uses <sup> and subscript <sub>text</sub> uses <sub>.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis code element montes, nascetur ridiculus mus.
-
-js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-
-
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
