@@ -47,11 +47,11 @@ We’ll embark on a journey with the assistance of our loyal droids : R2D2 and C
 
 <img src="https://res.cloudinary.com/drichmdyj/image/upload/v1734631040/beepboop_ylam5c.gif" alt="R2D2 and C3P0 GIF" width="500">
 
-<iframe src="/assets/html/Num_votes_histogram.html" width="100%" height="600px" frameborder="0"></iframe>
-<iframe src="/assets/html/Movie_release_date_histogram.html" width="100%" height="600px" frameborder="0"></iframe>
-<iframe src="/assets/html/Movie_runtime_histogram.html" width="100%" height="600px" frameborder="0"></iframe>
-<iframe src="/assets/html/Female_actors_histogram.html" width="100%" height="600px" frameborder="0"></iframe>
-<iframe src="/assets/html/Male_actors_histogram.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Num_votes_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Movie_release_date_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Movie_runtime_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Female_actors_kde.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/assets/html/Male_actors_kde.html" width="100%" height="600px" frameborder="0"></iframe>
 
 -  The histogram of Movie_release_date matches the growth of streaming platforms around 2015. Much like the Rebel Alliance rallying against the Empire, platforms like Netflix began producing their own content and expand their services accross the galaxy. C3P0 tell us that the small decrease of the curve after 2020 is due to the lack of current datas in their set. The recent spike in film releases reflects the streaming era's growth and can also show us how our society is evolving.
 
@@ -89,7 +89,7 @@ We’ll embark on a journey with the assistance of our loyal droids : R2D2 and C
 <iframe src="/assets/html/female_percentage_genre_evolution.html" width="100%" height="600px" frameborder="0"></iframe>
 <iframe src="/assets/html/average_number_or_percentage_of_female.html" width="100%" height="600px" frameborder="0"></iframe>
 
-- *Bar Chart:* Gender representation and genre on streaming platforms.
+ *Bar Chart:* Gender representation and genre on streaming platforms.
 
 - Female representation remains consistent across all genres, reflecting an industry-wide shift toward inclusivity.
 - The presence of female actors in genres such as Drama, Science Fiction, and Comedy showcases progress in creating more diverse stories that resonate with audiences.
@@ -100,9 +100,6 @@ We’ll embark on a journey with the assistance of our loyal droids : R2D2 and C
 ---
 
 # Rising Action: Measuring Success in the Digital Age
-
-As streaming platforms grow, so does their potential to shape culture. But does their inclusivity impact success?
-
 
 As we explore deeper into the streaming galaxy, we crossed paths with Master Yoda, who shared his timeless wisdom. "Ratings, the measure of success they are," he reminded us. "Reflect, they do, the reception and popularity of films and series."
 
@@ -119,8 +116,8 @@ During our travels across the cinematic galaxy, our ship's scanners revealed the
 
 
 
-- Countries with darker shades show higher average ratings, showcasing regions where films are more succesful and  positively received. The average ratings across countries should not be interpreted at face value due to unbalanced distribution of movies across regions. 
-- This global snapshot sparks curiosity about the factors influencing ratings : Could it be the genres, the languages spoken, or the cultural values embedded in films?
+- Countries with darker shades show higher average ratings, showcasing regions where films are more successfull. The average ratings across countries should not be interpreted at face value due to unbalanced distribution of movies across regions. United States and India dominate the dataset with far more films than others, which could skew interpretations of their average ratings.
+- This global overviewpeti sparks curiosity about the factors influencing ratings : Could it be the genres, the languages spoken, or the cultural values embedded in films?
 
 Master Yoda's wisdom inspires our next step: exploring the relationship between ratings, gender, genres, and the languages spoken in these regions. A regression analysis might uncover how these elements shape audience reception and define the succes metric.
 
