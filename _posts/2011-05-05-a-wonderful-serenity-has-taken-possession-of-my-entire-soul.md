@@ -7,6 +7,7 @@ description : Analyzing how gender diversity and genre influence the performance
 image: https://res.cloudinary.com/drichmdyj/image/upload/v1734639487/WhatsApp_Image_2024-12-19_at_21.17.17_phcqw0.jpg
 optimized_image: https://res.cloudinary.com/drichmdyj/image/upload/v1734639487/WhatsApp_Image_2024-12-19_at_21.17.17_phcqw0.jpg
 category: Streaming Analysis
+order: 3
 tags:
   - streaming
   - gender diversity

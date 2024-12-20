@@ -1,17 +1,17 @@
 ---
-date: 2018-11-22 12:26:40
+date: 2024-12-19 12:26:40
 layout: post
-title: Why books should be your priority?
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: life
+title: Box Office story
+subtitle: "Exploring the Secrets of Movie Success: From audience applause to Box Office gold."
+description: "Exploring the Secrets of Movie Success: From audience applause to Box Office gold."
+image: https://res.cloudinary.com/dncb3ja2x/image/upload/v1734643388/m_qwl6tw.png
+optimized_image: https://res.cloudinary.com/dncb3ja2x/image/upload/v1734643388/m_qwl6tw.png
+category: Movie Success
+order: 1
 tags:
-  - books
-  - read
-author: mranderson
-paginate: true
+  - ROI
+  - ratings
+author: Edouard Waked
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
