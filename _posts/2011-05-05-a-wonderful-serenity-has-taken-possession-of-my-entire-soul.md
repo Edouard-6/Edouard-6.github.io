@@ -12,7 +12,7 @@ tags:
   - streaming
   - gender diversity
   - movie success
-author: 
+authors: 
   - Yoan Codjia 
 ---
 
