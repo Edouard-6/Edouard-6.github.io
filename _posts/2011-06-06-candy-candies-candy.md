@@ -34,10 +34,10 @@ To answer these questions, we dove into the data with linear regression analysis
 | **Rating**          | 0.0001                 | 0.83             |
 | **Movie Success**   | 0.0058                           | 0.01             |
 
-The data paints an encouraging picture here. With a positive coefficient (0.128) and a significant p-value (0.003), it’s clear that movies with better representation of women, as measured by the Bechdel Rating, tend to yield higher ROI. In simpler terms, representation is not just socially valuable—it’s financially rewarding too.
+The data paints an encouraging picture here. With a positive coefficient (0.128) and a significant p-value (0.003), it’s clear that movies with better representation of women, as measured by the Bechdel Rating, tend to yield higher ROI. In simpler terms, representation is not just socially valuable - it’s financially rewarding too.
 
 But, is the Bechdel test too simple?
-Well, movie critics often point out that it's a blunt instrument—it measures only a narrow slice of representation. After all, a movie could pass the Bechdel Test with two women having a brief conversation about, say, a sandwich, and still fail to offer meaningful representation. That’s why we decided to dig deeper, turning to another dataset: Polygraph’s Film Dialogue Dataset.
+Well, movie critics often point out that it's a blunt instrument - it measures only a narrow slice of representation. After all, a movie could pass the Bechdel Test with two women having a brief conversation about, say, a sandwich, and still fail to offer meaningful representation. That’s why we decided to dig deeper, turning to another dataset: Polygraph’s Film Dialogue Dataset.
 It has information about characters in movies, along with their gender and the number of words they speak. This allows us to quantify who gets a voice in the story - literally, and unfortunately, women don't seem to have a say.
 
 <iframe src="/assets/html/Gender_Words.html" width="150%" height="600px" frameborder="0" scrolling="no"></iframe>
@@ -60,7 +60,8 @@ Realizing we needed a new approach, we shifted gears. Instead of broadly testing
 ## Falling Action
 <img src="https://res.cloudinary.com/ddor52c2q/image/upload/v1734722349/header3_tegagp.jpg" alt="Header3" style="width: 100%; height: auto; border: none;">
 
-With high hopes, we applied clustering techniques to sub-group movies by genre- action/adventure, comedy, drama, and thriller - in the hopes that this would reveal patterns in how women are portrayed across different types of stories. Unfortunately, the results were... underwhelming.
+With high hopes, we applied clustering techniques to sub-group movies by genre- action/adventure, comedy, drama, and thriller - in the hopes that this would reveal patterns in how women are portrayed across different types of stories.
+Unfortunately, the results were... underwhelming.
 Much like the tension in Fifty Shades of Grey, our exploration into sub-genres left us with more questions than answers. Clustering by sub-genres didn't yield meaningful insights. Instead of highlighting distinct patterns, the results were dominated by random, generic words that failed to differentiate the portrayal of women across sub-genres, as you can see in the five top words from three clusters in the action/adventure genre.
 
 <div style="display: flex; justify-content: center; overflow: hidden; height: 180px; width: 100%;">
